@@ -42,16 +42,17 @@
       border-radius: 8px;
       cursor: pointer;
     }
-    iframe.music {
-      display: block;
-      width: 0;
-      height: 0;
+    audio {
+      display: none; /* Música de fundo invisível */
     }
   </style>
 </head>
 <body>
   <!-- Música de fundo -->
-  <iframe class="music" width="0" height="0" src="https://www.youtube.com/embed/kod9kTvshfw?autoplay=1&loop=1&playlist=kod9kTvshfw" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+  <audio autoplay loop>
+    <source src="https://raw.githubusercontent.com/Armisaael/meu-convite-stardew/main/musica-stardew.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
 
   <div class="container">
     <h1>Você está convidado!</h1>
