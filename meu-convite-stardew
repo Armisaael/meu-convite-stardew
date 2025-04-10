@@ -61,7 +61,7 @@
     <p>Local: <strong>Em casa</strong></p>
     <p style="margin-top: 1rem;">"Venha colher bons momentos com a gente!"</p>
 
-    <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSemkGG3d-dAHpFIC2Z5vI7WaYJI6S4RvJlq5uYDAz7B8uxdLA/viewform?usp=header', '_blank')">Confirmar Presença</button>
+    <button onclick="window.open('https://forms.gle/hS6LgLZ1a6pxPMWQ9', '_blank')">Confirmar Presença</button>
   </div>
 </body>
 </html>
