@@ -42,23 +42,24 @@
       border-radius: 8px;
       cursor: pointer;
     }
-    audio {
-      display: none; /* Música de fundo invisível */
+    iframe {
+      border-radius: 8px;
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
-  <!-- Player do SoundCloud -->
-<iframe 
-  width="100%" 
-  height="80" 
-  scrolling="no" 
-  frameborder="no" 
-  allow="autoplay" 
-  src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/concernedape/spring-the-valley-comes-alive&color=%23ffce57&auto_play=true&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false">
-</iframe>
-
   <div class="container">
+    <!-- Player do SoundCloud dentro do convite -->
+    <iframe 
+      width="100%" 
+      height="80" 
+      scrolling="no" 
+      frameborder="no" 
+      allow="autoplay" 
+      src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/concernedape/spring-the-valley-comes-alive&color=%23ffce57&auto_play=true&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false">
+    </iframe>
+
     <h1>Você está convidado!</h1>
     <p>✨ Meu Aniversário ✨</p>
     <p>Dia: <strong>26 de abril</strong></p>
